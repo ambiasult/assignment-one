@@ -8,17 +8,15 @@
     "wdth" 100;
 }
 
-/* .text-primary{ */
-    /* color: blue; */
-/* } */
-
 .header{
     background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
 }
 
 /* nav styles */
 nav{
     desplay: flex
+    padding-bottom:30px;
     
 }
 .title{
@@ -41,14 +39,41 @@ nav li a{
 .color{
     background-color: #4E47FF; 
     color: #FFFFFF; 
-    border-radius: 5px;
+    border-radius: 6px;
     border: solid;
     padding: 5px;
     width: 102px;
     height: 24;
     
 }
+.color-button{
+     background-color: #4E47FF; 
+    color: #FFFFFF; 
+    border-radius: 10px;
+    border: solid;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+}
 
+.banner{
+    padding-bottom: 30px;
+}
 .banner-content{
     text-align: center;
 }
+
+.section{
+    display: flex;
+    justify-content: space-between;  
+    padding: 100px 50px;
+}
+
+.action{
+    border-radius: 25px;
+    }
+
+.action-section{
+    padding-top: 25px;
+}
+
