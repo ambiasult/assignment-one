@@ -15,9 +15,8 @@
 
 /* nav styles */
 nav{
-    desplay: flex
-    padding-bottom:30px;
-    
+    display: flex
+    padding-bottom: 30px;    
 }
 .title{
     font-weight: 800;
@@ -76,4 +75,94 @@ nav li a{
 .action-section{
     padding-top: 25px;
 }
+/* productive-section */
+.productive-section{
+    background-color: #c8c7e6;
+    margin: 15px 20px;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.font-styles{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #4E47FF;
+
+
+}
+.item-description{
+    color: #696969;
+    margin: 4px 0 0;
+    
+}
+/* content-section */
+.content-section{
+    background-color: #D6DDED;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 15px;
+    padding:15px 30px ;
+
+}
+.f-title{
+    text-align: justify;
+    font-size: 30px;
+    font-weight: bold;
+}
+.submit{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: solid;
+    padding: 5px;
+    width: 170px;
+    height: 30px;
+}
+
+/* footer style */
+
+.website-name{
+    background-color: #FFFFFF;
+}
+
+ .nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #696969;
+}
+
+.logo-style{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.para-style{
+    text-align: center;
+    color: #696969;
+}
+
+   
+
 
